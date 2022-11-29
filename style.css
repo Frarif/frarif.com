@@ -265,6 +265,7 @@ footer p {
 footer .line-up {
   margin-top: 30px;
   margin-bottom: 50px;
+  border: 1px solid #e08604;
 }
 
 footer .adress {
@@ -276,4 +277,5 @@ footer .adress {
 footer .line-down {
   margin-top: 50px;
   margin-bottom: 20px;
+  border: 1px solid #e08604;
 }
