@@ -11,8 +11,7 @@ button {
 body {
   margin: 0;
   padding: 0;
-  background-image: url(images/bg-home.png);
-  background-repeat: repeat-x;
+  max-width: 100%;
 }
 
 button:hover {
@@ -83,8 +82,18 @@ button:hover {
 .home-section {
   display: flex;
   justify-content: center;
-  margin-top: 142px;
+  flex-wrap: wrap;
+  padding-top: 142px;
+  padding-bottom: 130px;
   color: #e9e9e9;
+  background-color: #01030d;
+}
+
+.profile-home img {
+  border: #e9e9e9 2px solid;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 0 5px 2px #e08604;
 }
 
 .text-home {
@@ -133,10 +142,9 @@ button:hover {
 /* This CSS is For About Section */
 
 .about {
-  margin-top: 264px;
   display: flex;
+  margin: 30px 200px 0 175px;
   justify-content: center;
-  margin-left: 200px;
 }
 
 .about-me {
@@ -153,7 +161,6 @@ button:hover {
 .about-me-section {
   display: flex;
   flex-direction: column;
-  margin-right: 300px;
   text-align: justify;
   margin-bottom: 50px;
 }
@@ -211,6 +218,8 @@ button:hover {
 
 .portfolios {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 32px;
 }
 
@@ -262,16 +271,28 @@ footer p {
   font-size: 16px;
 }
 
-footer .line-up {
-  margin-top: 30px;
-  margin-bottom: 50px;
-  border: 1px solid #e08604;
+footer .adress .my-address {
+  display: flex;
+  justify-content: start;
+  margin-right: 88px;
+}
+
+footer .adress .email-phone {
+  display: flex;
+  gap: 40px;
+  margin-left: 40px;
 }
 
 footer .adress {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+}
+
+footer .line-up {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  border: 1px solid #e08604;
 }
 
 footer .line-down {
