@@ -336,6 +336,7 @@ footer .line-down {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    align-content: center;
     background-color: #01030d;
     padding-top: 3%;
     padding-bottom: 3%;
@@ -355,7 +356,7 @@ footer .line-down {
   }
 
   .fa-bars {
-    font-size: 23px;
+    font-size: 100%;
   }
 
   /* CSS FOR HOME SECTION */
