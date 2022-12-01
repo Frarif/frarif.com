@@ -4,7 +4,8 @@ h1,
 h2,
 h3,
 span,
-button {
+button,
+a {
   font-family: "Lato", sans-serif;
 }
 
@@ -163,6 +164,15 @@ button:hover {
   flex-direction: column;
   text-align: justify;
   margin-bottom: 50px;
+}
+
+.about-me-section .text-about .know-me {
+  color: #e08604;
+  opacity: 0.6;
+}
+
+.about-me-section .text-about .know-me:hover {
+  color: #ffad3a;
 }
 
 /* This CSS for Portfolio Section */
