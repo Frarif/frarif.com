@@ -318,7 +318,7 @@ footer .line-down {
 
 /* RESPONSIVE PHONE SCREEN */
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 425px) {
   /* CSS FOR NAVBAR */
 
   .hero {
@@ -328,9 +328,8 @@ footer .line-down {
   }
 
   .hero img {
-    width: 50%;
+    width: 100%;
     height: 100%;
-    margin-left: 40%;
   }
 
   nav {
