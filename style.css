@@ -335,7 +335,7 @@ footer .line-down {
   nav {
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: space-between;
     background-color: #01030d;
     padding-top: 3%;
     padding-bottom: 3%;
