@@ -1,0 +1,238 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 122px 200px 50px 200px;
+  background-color: #01030d;
+  color: #fff;
+}
+
+span {
+  font-weight: bold;
+}
+
+.fa-circle-dot {
+  font-size: 120%;
+  color: #e08604;
+}
+
+.profile .education p {
+  display: flex;
+  color: #e08604;
+  font-weight: bold;
+  font-size: 16px;
+  border: #e08604 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: auto;
+}
+
+.profile .profile-page-picture {
+  display: flex;
+  justify-content: center;
+}
+
+.profile .profile-page-picture img {
+  height: 15%;
+  width: 15%;
+  border: #e9e9e9 2px solid;
+  padding: 10px 10px 0 10px;
+  border-radius: 10px;
+  box-shadow: 1px 0 5px 2px #e08604;
+  background-color: #ffdeb6;
+}
+
+.profile .education-list {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: #fff 2px dashed;
+  border-radius: 10px;
+}
+
+.profile .education-list .college {
+  display: flex;
+}
+
+.college .my-college {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.profile .education-list .senior-high-school {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.senior-high-school .my-senior-high-school {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.profile .education-list .junior-high-school {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.junior-high-school .my-junior-high-school {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.profile .skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile .skill .skill-title p {
+  display: flex;
+  color: #e08604;
+  font-weight: bold;
+  font-size: 16px;
+  border: #e08604 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: auto;
+}
+
+.profile .skill .skill-list {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: #fff 2px dashed;
+  border-radius: 10px;
+}
+
+.skill-list .uiux {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.skill-list .fed {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.skill-list .tools {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  p {
+    font-size: 14px;
+  }
+
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 113px 20px 30px 20px;
+    background-color: #01030d;
+    color: #fff;
+  }
+
+  .profile .profile-page-picture {
+    display: flex;
+    justify-content: center;
+  }
+
+  .profile .profile-page-picture img {
+    display: none;
+  }
+
+  .profile .education-list {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: #fff 2px dashed;
+    border-radius: 10px;
+  }
+
+  .profile .education-list .college {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .college .my-college {
+    display: flex;
+    align-items: center;
+  }
+
+  .profile .education-list .senior-high-school {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .senior-high-school .my-senior-high-school {
+    display: flex;
+    align-items: center;
+  }
+
+  .profile .education-list .junior-high-school {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .junior-high-school .my-junior-high-school {
+    display: flex;
+    align-items: center;
+  }
+
+  .profile .skill .skill-list {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border: #fff 2px dashed;
+    border-radius: 10px;
+  }
+  .profile .skill .skill-title p {
+    display: flex;
+    color: #e08604;
+    font-weight: bold;
+    font-size: 16px;
+    border: #e08604 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: auto;
+  }
+
+  .skill-list .uiux {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+
+  .skill-list .fed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+
+  .skill-list .tools {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+}
