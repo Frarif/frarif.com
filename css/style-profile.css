@@ -5,6 +5,7 @@
   padding: 122px 200px 50px 200px;
   background-color: #01030d;
   color: #fff;
+  animation: fadeIn 0.5s;
 }
 
 span {

@@ -13,6 +13,7 @@ body {
   margin: 0;
   padding: 0;
   max-width: 100%;
+  animation: fadeIn 0.3s;
 }
 
 button:hover {
@@ -21,6 +22,17 @@ button:hover {
 
 .hero nav .responsive-mobile {
   display: none;
+}
+
+/* Keyframes Animation */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /* This CSS For Navbar */
