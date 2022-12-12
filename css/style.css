@@ -279,8 +279,8 @@ button:hover {
 
 /* This CSS for Footer Section */
 footer {
-  display: block;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
   text-align: center;
 }
 
