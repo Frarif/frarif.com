@@ -38,6 +38,11 @@
   gap: 30px;
 }
 
+.project-card img {
+  box-shadow: 1px 0 5px 2px #e08604;
+  border-radius: 20px;
+}
+
 .project-show .project-card {
   transition: 0.5s all ease-in-out;
 }
