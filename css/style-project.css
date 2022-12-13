@@ -1,0 +1,34 @@
+.project-page {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  align-items: center;
+  background-color: #01030d;
+  color: white;
+}
+
+.project-title p {
+  font-size: 32px;
+  color: #e08604;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.project-btn button {
+  font-size: 12px;
+  padding: 5px 15px;
+  background: none;
+  color: #e9e9e9;
+  border: #e9e9e9 1px solid;
+  border-radius: 100px;
+  margin-bottom: 50px;
+}
+
+.project-btn button:hover {
+  color: #e08604;
+  border: #e08604 1px solid;
+}
+
+.project-show {
+  display: flex;
+}
