@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   padding-top: 100px;
+  padding-bottom: 100px;
   align-items: center;
   background-color: #01030d;
   color: white;
@@ -31,4 +32,42 @@
 
 .project-show {
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.project-show .project-card {
+  transition: 0.5s all ease-in-out;
+}
+
+.project-show .project-card:hover {
+  transform: scale(0.98);
+}
+
+.project-card p {
+  display: none;
+}
+
+.project-show .project-card:hover p {
+  display: block;
+  position: absolute;
+  bottom: 0.5rem;
+  padding: 0.5rem 2rem 1rem 2rem;
+  text-align: center;
+  color: #e08604;
+  background: #01030d96;
+  animation: fadeIn 1s;
+}
+
+/* Keyframe */
+/* Keyframes animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

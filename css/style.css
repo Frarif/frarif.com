@@ -45,6 +45,7 @@ button:hover {
   position: fixed;
   height: 92px;
   width: 100%;
+  z-index: 99999;
 }
 
 .hero img {
