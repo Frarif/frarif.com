@@ -1,0 +1,80 @@
+.hire-page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 92px;
+  padding-bottom: 50px;
+  background-color: #01030d;
+  color: white;
+}
+
+.hire-title p {
+  font-size: 32px;
+  color: #e08604;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.hire-box {
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 20px 30px 20px 30px;
+  border: #595959 1px solid;
+  border-radius: 30px;
+}
+
+.roles p {
+  margin-top: 0;
+}
+
+.roles fieldset {
+  width: fit-content;
+  border-radius: 5px;
+  background-color: #495057;
+  border: none;
+  padding: 10px;
+}
+
+.roles fieldset .dropdown select {
+  outline: #e08604 1px solid;
+  border-radius: 3px;
+}
+
+.btn-send {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.hire-box .hire-control:focus {
+  outline: #e08604 1px solid;
+}
+
+.hire-box .hire-control {
+  width: 599px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px;
+  color: white;
+  background: #495057;
+  border: none;
+}
+
+.hire-box textarea:focus {
+  outline: #e08604 1px solid;
+}
+
+.hire-box textarea {
+  background: #495057;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+}
