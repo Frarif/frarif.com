@@ -4,8 +4,7 @@
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
-  padding-top: 92px;
-  padding-bottom: 50px;
+  padding: 92px 0 50px 0;
   background-color: #01030d;
   color: white;
 }
@@ -22,7 +21,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  padding: 20px 30px 20px 30px;
+  padding: 20px;
   border: #595959 1px solid;
   border-radius: 30px;
 }
@@ -72,9 +71,27 @@
 
 .hire-box textarea {
   background: #495057;
-  width: 100%;
   border: none;
   border-radius: 5px;
   padding: 5px;
   color: white;
+}
+
+/* RESPONSIVE PHONE SCREEN */
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .hire-box .hire-control {
+    width: fit-content;
+  }
+
+  .hire-page {
+    padding-top: 130px;
+  }
+
+  .hire-title p {
+    font-size: 20px;
+    color: #e08604;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
 }
