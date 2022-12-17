@@ -67,13 +67,10 @@
   animation: fadeIn 1s;
 }
 
-/* Keyframe */
-/* Keyframes animation */
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
+/* RESPONSIVE PHONE SCREEN */
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .project-page {
+    padding-top: 130px;
   }
 }
