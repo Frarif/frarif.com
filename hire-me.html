@@ -69,50 +69,51 @@
     <!-- HIRE ME -->
 
     <main>
-      <div class="hire-page">
-        <div class="hire-title">
-          <p>Please fill the column below</p>
+      <form action="https://formbold.com/s/6vyBo" method="post">
+        <div class="hire-page">
+          <div class="hire-title">
+            <p>Please fill the column below</p>
+          </div>
+          <div class="hire-box">
+            <div class="company">
+              <p>Company</p>
+              <input
+                type="text"
+                class="hire-control"
+                name="company"
+                placeholder="Company"
+              />
+            </div>
+            <div class="roles">
+              <p>Role</p>
+              <fieldset class="fieldset-form">
+                <div class="dropdown">
+                  <select name="role" id="purpose" class="hire-role">
+                    <option value="">Role</option>
+                    <option value="ui/ux designer">UI/UX Designer</option>
+                    <option value="front-end developer">
+                      Front-end Developer
+                    </option>
+                  </select>
+                </div>
+              </fieldset>
+            </div>
+            <p>Description</p>
+            <textarea
+              name="description"
+              cols="30"
+              rows="10"
+              placeholder="Description"
+            ></textarea>
+            <div class="btn-send">
+              <button class="btn-hire-me" type="submit">
+                SEND ME&nbsp;
+                <i class="fa-solid fa-arrow-right-from-bracket"></i>
+              </button>
+            </div>
+          </div>
         </div>
-        <div class="hire-box">
-          <div class="company">
-            <p>Company</p>
-            <input
-              type="text"
-              class="hire-control"
-              name="company"
-              placeholder="Company"
-            />
-          </div>
-          <div class="roles">
-            <p>Role</p>
-            <fieldset class="fieldset-form">
-              <div class="dropdown">
-                <select name="dropdown-purpose" id="purpose" class="hire-role">
-                  <option value="">Role</option>
-                  <option value="general-inquiry">UI/UX Designer</option>
-                  <option value="speaking-opportunities">
-                    Front-end Developer
-                  </option>
-                </select>
-              </div>
-              <label for="purpose" class="form text caption"></label>
-            </fieldset>
-          </div>
-          <p>Description</p>
-          <textarea
-            name="message"
-            cols="30"
-            rows="10"
-            placeholder="Description"
-          ></textarea>
-          <div class="btn-send">
-            <button class="btn-hire-me">
-              SEND ME&nbsp;
-              <i class="fa-solid fa-arrow-right-from-bracket"></i>
-            </button>
-          </div>
-        </div>
-      </div>
+      </form>
     </main>
 
     <!-- FOOTER -->
