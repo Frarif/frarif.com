@@ -53,6 +53,12 @@ button:hover {
   margin-top: 28px;
 }
 
+.navbar-list-btn {
+  display: flex;
+  align-items: center;
+  gap: 133px;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -342,14 +348,20 @@ footer .line-down {
     width: 100%;
   }
 
+  .header-logo {
+    padding-left: 10px;
+  }
+
+  .navbar-list-btn {
+    gap: 0;
+  }
+
   nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    align-content: center;
+    padding: 3% 0;
     background-color: #01030d;
-    padding-top: 3%;
-    padding-bottom: 3%;
   }
 
   nav ul li {
@@ -363,10 +375,11 @@ footer .line-down {
   .hero nav .responsive-mobile {
     display: inline;
     color: #e9e9e9;
+    padding-right: 10px;
   }
 
   .fa-bars {
-    font-size: 100%;
+    font-size: 200%;
   }
 
   /* CSS FOR HOME SECTION */
