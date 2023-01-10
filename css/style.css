@@ -47,6 +47,7 @@ button:hover {
   height: 92px;
   width: 100%;
   z-index: 99999;
+  transition: 0.6s;
 }
 
 .hero img {
@@ -100,6 +101,11 @@ header nav ul a.active {
 button:hover {
   color: #e08604;
   background: #ffffff;
+}
+
+header.sticky .hero {
+  position: fixed;
+  opacity: 0.8;
 }
 
 /* This CSS for Home Section */
